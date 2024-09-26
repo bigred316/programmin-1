@@ -1,0 +1,12 @@
+C:\Users\price.g\Desktop\programmin-1\abtme\abtme\bin\Debug\abtme.exe.config
+C:\Users\price.g\Desktop\programmin-1\abtme\abtme\bin\Debug\abtme.exe
+C:\Users\price.g\Desktop\programmin-1\abtme\abtme\bin\Debug\abtme.dll
+C:\Users\price.g\Desktop\programmin-1\abtme\abtme\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\programmin-1\abtme\abtme\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\programmin-1\abtme\abtme\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\programmin-1\abtme\abtme\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\programmin-1\abtme\abtme\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\programmin-1\abtme\abtme\obj\Debug\abtme.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\programmin-1\abtme\abtme\obj\Debug\abtme.MainForm.resources
+C:\Users\price.g\Desktop\programmin-1\abtme\abtme\obj\Debug\abtme.pyproj.GenerateResource.Cache
+C:\Users\price.g\Desktop\programmin-1\abtme\abtme\obj\Debug\abtme.exe
