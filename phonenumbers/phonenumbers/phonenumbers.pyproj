@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{09937E27-3C41-42F9-AE61-067FA60218A7}</ProjectGuid>
+    <ProjectGuid>{54F7E5D2-2552-4E58-BD8D-E711025EB39B}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <RootNamespace>Go_cougars_</RootNamespace>
-    <AssemblyName>Go cougars!</AssemblyName>
+    <RootNamespace>phonenumbers</RootNamespace>
+    <AssemblyName>phonenumbers</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>
