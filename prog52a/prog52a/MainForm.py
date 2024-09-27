@@ -32,7 +32,6 @@ class MainForm(Form):
         self._label1.Size = System.Drawing.Size(179, 31)
         self._label1.TabIndex = 0
         self._label1.Text = "Length:"
-        self._label1.Click += self.Label1Click
         # 
         # label2
         # 
@@ -44,7 +43,6 @@ class MainForm(Form):
         self._label2.Size = System.Drawing.Size(179, 31)
         self._label2.TabIndex = 1
         self._label2.Text = "Width:"
-        self._label2.Click += self.Label2Click
         # 
         # label3
         # 
@@ -56,7 +54,6 @@ class MainForm(Form):
         self._label3.Size = System.Drawing.Size(179, 33)
         self._label3.TabIndex = 2
         self._label3.Text = "Area:"
-        self._label3.Click += self.Label3Click
         # 
         # label4
         # 
@@ -68,7 +65,6 @@ class MainForm(Form):
         self._label4.Size = System.Drawing.Size(179, 33)
         self._label4.TabIndex = 3
         self._label4.Text = "Perimeter:"
-        self._label4.Click += self.Label4Click
         # 
         # button1
         # 
@@ -96,12 +92,13 @@ class MainForm(Form):
         # 
         self._button3.Font = System.Drawing.Font("Rockwell", 24, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
         self._button3.ForeColor = System.Drawing.Color.Red
-        self._button3.Location = System.Drawing.Point(495, 226)
+        self._button3.Location = System.Drawing.Point(500, 166)
         self._button3.Name = "button3"
-        self._button3.Size = System.Drawing.Size(58, 254)
+        self._button3.Size = System.Drawing.Size(50, 321)
         self._button3.TabIndex = 6
         self._button3.Text = "EXIT"
         self._button3.UseVisualStyleBackColor = True
+        self._button3.Click += self.Button3Click
         # 
         # label5
         # 
@@ -177,4 +174,8 @@ class MainForm(Form):
         # int integer float floating point str string
 
     def Button2Click(self, sender, e):
-        pass
+        self._label5.Text= ""
+        self._label6.Text= ""
+
+    def Button3Click(self, sender, e):
+        Application.Exit()
