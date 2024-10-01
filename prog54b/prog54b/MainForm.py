@@ -110,6 +110,7 @@ class MainForm(Form):
         self._button2.TabIndex = 11
         self._button2.Text = "Exit"
         self._button2.UseVisualStyleBackColor = True
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -120,6 +121,7 @@ class MainForm(Form):
         self._button3.TabIndex = 12
         self._button3.Text = "Clear"
         self._button3.UseVisualStyleBackColor = True
+        self._button3.Click += self.Button3Click
         # 
         # textBox2
         # 
@@ -132,11 +134,10 @@ class MainForm(Form):
         # label2
         # 
         self._label2.Font = System.Drawing.Font("Microsoft Sans Serif", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._label2.Location = System.Drawing.Point(443, 28)
+        self._label2.Location = System.Drawing.Point(460, 28)
         self._label2.Name = "label2"
         self._label2.Size = System.Drawing.Size(239, 117)
         self._label2.TabIndex = 14
-        self._label2.Text = "label2"
         self._label2.Click += self.Label2Click
         # 
         # label6
@@ -144,9 +145,9 @@ class MainForm(Form):
         self._label6.Font = System.Drawing.Font("Microsoft Sans Serif", 20.25, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
         self._label6.Location = System.Drawing.Point(314, 22)
         self._label6.Name = "label6"
-        self._label6.Size = System.Drawing.Size(123, 37)
+        self._label6.Size = System.Drawing.Size(140, 37)
         self._label6.TabIndex = 15
-        self._label6.Text = "Area:"
+        self._label6.Text = "Average:"
         # 
         # label7
         # 
@@ -155,7 +156,6 @@ class MainForm(Form):
         self._label7.Name = "label7"
         self._label7.Size = System.Drawing.Size(239, 117)
         self._label7.TabIndex = 16
-        self._label7.Text = "label7"
         # 
         # label8
         # 
@@ -194,4 +194,18 @@ class MainForm(Form):
         pass
 
     def Button1Click(self, sender, e):
-        pass
+        num1 = int(self._textBox1.Text)
+        num2 = int(self._textBox2.Text)
+        num3 = int(self._textBox3.Text)
+        num4 = int(self._textBox4.Text)
+        Sum = num1 + num2 + num3 + num4
+        avg = Sum/4.0000
+        self._label2.Text = str(avg)
+        self._label7.Text = str(Sum)
+
+    def Button3Click(self, sender, e):
+        self._label2.Text = ""
+        self._label7.Text = ""
+
+    def Button2Click(self, sender, e):
+        Application.Exit()
