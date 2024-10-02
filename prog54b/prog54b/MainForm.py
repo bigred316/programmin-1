@@ -68,6 +68,7 @@ class MainForm(Form):
         # 
         # textBox1
         # 
+        self._textBox1.BackColor = System.Drawing.Color.Turquoise
         self._textBox1.Font = System.Drawing.Font("Microsoft Sans Serif", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
         self._textBox1.Location = System.Drawing.Point(154, 25)
         self._textBox1.Name = "textBox1"
@@ -76,6 +77,7 @@ class MainForm(Form):
         # 
         # textBox3
         # 
+        self._textBox3.BackColor = System.Drawing.Color.Turquoise
         self._textBox3.Font = System.Drawing.Font("Microsoft Sans Serif", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
         self._textBox3.Location = System.Drawing.Point(154, 235)
         self._textBox3.Name = "textBox3"
@@ -84,6 +86,7 @@ class MainForm(Form):
         # 
         # textBox4
         # 
+        self._textBox4.BackColor = System.Drawing.Color.Turquoise
         self._textBox4.Font = System.Drawing.Font("Microsoft Sans Serif", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
         self._textBox4.Location = System.Drawing.Point(154, 344)
         self._textBox4.Name = "textBox4"
@@ -92,39 +95,43 @@ class MainForm(Form):
         # 
         # button1
         # 
+        self._button1.BackColor = System.Drawing.Color.CadetBlue
         self._button1.Font = System.Drawing.Font("Rockwell", 20.25, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
         self._button1.Location = System.Drawing.Point(25, 411)
         self._button1.Name = "button1"
         self._button1.Size = System.Drawing.Size(209, 77)
         self._button1.TabIndex = 10
         self._button1.Text = "Calculate"
-        self._button1.UseVisualStyleBackColor = True
+        self._button1.UseVisualStyleBackColor = False
         self._button1.Click += self.Button1Click
         # 
         # button2
         # 
+        self._button2.BackColor = System.Drawing.Color.CadetBlue
         self._button2.Font = System.Drawing.Font("Rockwell", 20.25, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
         self._button2.Location = System.Drawing.Point(460, 411)
         self._button2.Name = "button2"
         self._button2.Size = System.Drawing.Size(209, 77)
         self._button2.TabIndex = 11
         self._button2.Text = "Exit"
-        self._button2.UseVisualStyleBackColor = True
+        self._button2.UseVisualStyleBackColor = False
         self._button2.Click += self.Button2Click
         # 
         # button3
         # 
+        self._button3.BackColor = System.Drawing.Color.CadetBlue
         self._button3.Font = System.Drawing.Font("Rockwell", 20.25, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
         self._button3.Location = System.Drawing.Point(245, 411)
         self._button3.Name = "button3"
         self._button3.Size = System.Drawing.Size(209, 77)
         self._button3.TabIndex = 12
         self._button3.Text = "Clear"
-        self._button3.UseVisualStyleBackColor = True
+        self._button3.UseVisualStyleBackColor = False
         self._button3.Click += self.Button3Click
         # 
         # textBox2
         # 
+        self._textBox2.BackColor = System.Drawing.Color.Turquoise
         self._textBox2.Font = System.Drawing.Font("Microsoft Sans Serif", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
         self._textBox2.Location = System.Drawing.Point(154, 114)
         self._textBox2.Name = "textBox2"
@@ -168,6 +175,7 @@ class MainForm(Form):
         # 
         # MainForm
         # 
+        self.BackColor = System.Drawing.SystemColors.ButtonShadow
         self.ClientSize = System.Drawing.Size(698, 500)
         self.Controls.Add(self._label8)
         self.Controls.Add(self._label7)
