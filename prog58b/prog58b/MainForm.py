@@ -113,6 +113,7 @@ class MainForm(Form):
         self._button1.TabIndex = 9
         self._button1.Text = "Calculate"
         self._button1.UseVisualStyleBackColor = False
+        self._button1.Click += self.Button1Click
         # 
         # button2
         # 
@@ -139,7 +140,7 @@ class MainForm(Form):
         # 
         # MainForm
         # 
-        self.ClientSize = System.Drawing.Size(870, 511)
+        self.ClientSize = System.Drawing.Size(585, 511)
         self.Controls.Add(self._button3)
         self.Controls.Add(self._button2)
         self.Controls.Add(self._button1)
@@ -163,3 +164,9 @@ class MainForm(Form):
 
     def Button2Click(self, sender, e):
         Application.Exit()
+
+    def Button1Click(self, sender, e):
+        a = int(self._textBox1.Text)
+        b = int(self._textBox2.Text)
+        RootPos = -b + math.sqrt(b ** 2 - 4 * a * c) /2 * a
+        RootNeg = -b - math.sqrt(b ** 2 - 4 * a * c) /2 * a
