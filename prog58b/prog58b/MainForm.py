@@ -80,7 +80,7 @@ class MainForm(Form):
         # textBox2
         # 
         self._textBox2.Font = System.Drawing.Font("Microsoft Sans Serif", 20.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._textBox2.Location = System.Drawing.Point(129, 241)
+        self._textBox2.Location = System.Drawing.Point(129, 177)
         self._textBox2.Name = "textBox2"
         self._textBox2.Size = System.Drawing.Size(202, 38)
         self._textBox2.TabIndex = 6
@@ -88,7 +88,7 @@ class MainForm(Form):
         # textBox3
         # 
         self._textBox3.Font = System.Drawing.Font("Microsoft Sans Serif", 20.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._textBox3.Location = System.Drawing.Point(129, 173)
+        self._textBox3.Location = System.Drawing.Point(129, 241)
         self._textBox3.Name = "textBox3"
         self._textBox3.Size = System.Drawing.Size(202, 38)
         self._textBox3.TabIndex = 7
@@ -137,6 +137,7 @@ class MainForm(Form):
         self._button3.TabIndex = 12
         self._button3.Text = "Clear"
         self._button3.UseVisualStyleBackColor = False
+        self._button3.Click += self.Button3Click
         # 
         # MainForm
         # 
@@ -166,7 +167,12 @@ class MainForm(Form):
         Application.Exit()
 
     def Button1Click(self, sender, e):
-        a = int(self._textBox1.Text)
-        b = int(self._textBox2.Text)
-        RootPos = -b + math.sqrt(b ** 2 - 4 * a * c) /2 * a
-        RootNeg = -b - math.sqrt(b ** 2 - 4 * a * c) /2 * a
+        a = float(self._textBox1.Text)
+        b = float(self._textBox2.Text)
+        c = float(self._textBox3.Text)
+        RootPos = -b + math.sqrt ((b ** 2) - (4 * a * c)  )/ (2 * a) 
+        RootNeg = -b - math.sqrt ((b ** 2) - (4 * a * c)  )/ (2 * a)  
+        self._label6.Text= "x=" + str(RootPos) + " or " + str(RootNeg)
+
+    def Button3Click(self, sender, e):
+        self._label6.Text= ""
