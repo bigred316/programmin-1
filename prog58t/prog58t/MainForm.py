@@ -104,6 +104,7 @@ class MainForm(Form):
         self._button2.TabIndex = 7
         self._button2.Text = "Clear"
         self._button2.UseVisualStyleBackColor = True
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -115,6 +116,7 @@ class MainForm(Form):
         self._button3.TabIndex = 8
         self._button3.Text = "EXIT"
         self._button3.UseVisualStyleBackColor = True
+        self._button3.Click += self.Button3Click
         # 
         # label5
         # 
@@ -158,5 +160,10 @@ class MainForm(Form):
         nic = work // 0.05
         work = work - (nic / 20)
         pen = work // 0.01
-        self._label4.Text ="Dollars: " + str(dollars) + "\n Quarters: " + str(quarters) + "\n Dimes: " + str(dimes) + "\n Nickles: " 
-        self._label5.Text = work
+        self._label4.Text ="Dollars: " + str(dollars) + "\n Quarters: " + str(quarters) + "\n Dimes: " + str(dimes) + "\n Nickles: " + str(nic) + "\n Pennies: " + str(pen)
+
+    def Button2Click(self, sender, e):
+        self._label4.Text = ""
+
+    def Button3Click(self, sender, e):
+        Application.Exit()
