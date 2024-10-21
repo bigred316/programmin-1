@@ -1,0 +1,12 @@
+C:\Users\price.g\Desktop\programmin-1\prog162b\prog162b\bin\Debug\prog162b.exe.config
+C:\Users\price.g\Desktop\programmin-1\prog162b\prog162b\bin\Debug\prog162b.exe
+C:\Users\price.g\Desktop\programmin-1\prog162b\prog162b\bin\Debug\prog162b.dll
+C:\Users\price.g\Desktop\programmin-1\prog162b\prog162b\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\programmin-1\prog162b\prog162b\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\programmin-1\prog162b\prog162b\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\programmin-1\prog162b\prog162b\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\programmin-1\prog162b\prog162b\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\programmin-1\prog162b\prog162b\obj\Debug\prog162b.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\programmin-1\prog162b\prog162b\obj\Debug\prog162b.MainForm.resources
+C:\Users\price.g\Desktop\programmin-1\prog162b\prog162b\obj\Debug\prog162b.pyproj.GenerateResource.Cache
+C:\Users\price.g\Desktop\programmin-1\prog162b\prog162b\obj\Debug\prog162b.exe
