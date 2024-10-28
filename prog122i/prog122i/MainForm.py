@@ -79,19 +79,20 @@ class MainForm(Form):
         heading= "Number\t\tCube\t\tCube Root"
         self._listBox1.Items.Add(heading)
         x = -25
+                              
         xcube = 0
         xroot = 0
         
+        
         for x in range(-25, 26):
-           if x > 0:
-               x *= -1
-           def methmath():
-               pass
            xcube = x ** 3
-           xroot = float(x) ** (1.0/3)
-           line = str(x) + "\t\t" + str(xcube) + "\t\t" + str(xroot) + "\t\t"
+           if x < 0:
+            xroot = (-1.0 * x) ** (1.0/3)
+            line = str(x) + "\t\t" + str(xcube) + "\t\t" + str(-1.0 * xroot)
+           else:
+            xroot = x ** (1.0/3)
+            line = str(x) + "\t\t" + str(xcube) + "\t\t" + str(xroot)
            self._listBox1.Items.Add(line)
-           x += 1
         
         
         
