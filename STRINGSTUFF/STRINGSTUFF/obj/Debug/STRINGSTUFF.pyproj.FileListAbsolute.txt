@@ -1,0 +1,10 @@
+C:\Users\price.g\Desktop\programmin-1\STRINGSTUFF\STRINGSTUFF\bin\Debug\STRINGSTUFF.exe.config
+C:\Users\price.g\Desktop\programmin-1\STRINGSTUFF\STRINGSTUFF\bin\Debug\STRINGSTUFF.exe
+C:\Users\price.g\Desktop\programmin-1\STRINGSTUFF\STRINGSTUFF\bin\Debug\STRINGSTUFF.dll
+C:\Users\price.g\Desktop\programmin-1\STRINGSTUFF\STRINGSTUFF\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\programmin-1\STRINGSTUFF\STRINGSTUFF\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\programmin-1\STRINGSTUFF\STRINGSTUFF\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\programmin-1\STRINGSTUFF\STRINGSTUFF\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\programmin-1\STRINGSTUFF\STRINGSTUFF\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\programmin-1\STRINGSTUFF\STRINGSTUFF\obj\Debug\STRINGSTUFF.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\programmin-1\STRINGSTUFF\STRINGSTUFF\obj\Debug\STRINGSTUFF.exe
