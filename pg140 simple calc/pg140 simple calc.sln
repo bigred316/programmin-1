@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "pg140 simple calc", "pg140 simple calc\pg140 simple calc.pyproj", "{596030E7-164E-420B-A058-A3FF9F7CDA7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{596030E7-164E-420B-A058-A3FF9F7CDA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596030E7-164E-420B-A058-A3FF9F7CDA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596030E7-164E-420B-A058-A3FF9F7CDA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596030E7-164E-420B-A058-A3FF9F7CDA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
