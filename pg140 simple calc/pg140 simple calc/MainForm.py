@@ -65,6 +65,7 @@ class MainForm(Form):
         self._textBox1.Name = "textBox1"
         self._textBox1.Size = System.Drawing.Size(90, 26)
         self._textBox1.TabIndex = 3
+        self._textBox1.Text = "1"
         # 
         # textBox2
         # 
@@ -73,6 +74,7 @@ class MainForm(Form):
         self._textBox2.Name = "textBox2"
         self._textBox2.Size = System.Drawing.Size(90, 26)
         self._textBox2.TabIndex = 4
+        self._textBox2.Text = "1"
         # 
         # button1
         # 
@@ -118,7 +120,7 @@ class MainForm(Form):
         self._button4.Name = "button4"
         self._button4.Size = System.Drawing.Size(45, 32)
         self._button4.TabIndex = 9
-        self._button4.Text = "^"
+        self._button4.Text = "**"
         self._button4.UseVisualStyleBackColor = False
         self._button4.Click += self.Button4Click
         # 
@@ -196,6 +198,7 @@ class MainForm(Form):
         self._button8.TabIndex = 16
         self._button8.Text = "Clear"
         self._button8.UseVisualStyleBackColor = False
+        self._button8.Click += self.Button8Click
         # 
         # button9
         # 
@@ -207,6 +210,7 @@ class MainForm(Form):
         self._button9.TabIndex = 17
         self._button9.Text = "Exit"
         self._button9.UseVisualStyleBackColor = False
+        self._button9.Click += self.Button9Click
         # 
         # MainForm
         # 
@@ -258,8 +262,8 @@ class MainForm(Form):
 
     def Button4Click(self, sender, e):
         num = 0
-        num = float(self._textBox1.Text) ^ float(self._textBox2.Text)
-        self._label6.Text = " ^ "
+        num = float(self._textBox1.Text) ** float(self._textBox2.Text)
+        self._label6.Text = " ** "
         self._label5.Text = str(num)
 
     def Button5Click(self, sender, e):
@@ -279,3 +283,11 @@ class MainForm(Form):
         num = float(self._textBox1.Text) % float(self._textBox2.Text)
         self._label6.Text = " % "
         self._label5.Text = str(num)
+
+    def Button8Click(self, sender, e):
+        num = 0
+        self._label6.Text = "  "
+        self._label5.Text = ""
+
+    def Button9Click(self, sender, e):
+        Application.Exit()
