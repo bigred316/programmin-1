@@ -1,0 +1,10 @@
+C:\Users\price.g\Desktop\programmin-1\dictionaries + tuples\dictionaries + tuples\bin\Debug\dictionaries + tuples.exe.config
+C:\Users\price.g\Desktop\programmin-1\dictionaries + tuples\dictionaries + tuples\bin\Debug\dictionaries + tuples.exe
+C:\Users\price.g\Desktop\programmin-1\dictionaries + tuples\dictionaries + tuples\bin\Debug\dictionaries + tuples.dll
+C:\Users\price.g\Desktop\programmin-1\dictionaries + tuples\dictionaries + tuples\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\programmin-1\dictionaries + tuples\dictionaries + tuples\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\programmin-1\dictionaries + tuples\dictionaries + tuples\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\programmin-1\dictionaries + tuples\dictionaries + tuples\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\programmin-1\dictionaries + tuples\dictionaries + tuples\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\programmin-1\dictionaries + tuples\dictionaries + tuples\obj\Debug\dictionaries + tuples.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\programmin-1\dictionaries + tuples\dictionaries + tuples\obj\Debug\dictionaries + tuples.exe

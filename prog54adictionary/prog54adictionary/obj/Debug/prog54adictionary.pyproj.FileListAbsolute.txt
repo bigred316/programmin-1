@@ -1,0 +1,10 @@
+C:\Users\price.g\Desktop\programmin-1\prog54adictionary\prog54adictionary\bin\Debug\prog54adictionary.exe.config
+C:\Users\price.g\Desktop\programmin-1\prog54adictionary\prog54adictionary\bin\Debug\prog54adictionary.exe
+C:\Users\price.g\Desktop\programmin-1\prog54adictionary\prog54adictionary\bin\Debug\prog54adictionary.dll
+C:\Users\price.g\Desktop\programmin-1\prog54adictionary\prog54adictionary\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\programmin-1\prog54adictionary\prog54adictionary\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\programmin-1\prog54adictionary\prog54adictionary\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\programmin-1\prog54adictionary\prog54adictionary\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\programmin-1\prog54adictionary\prog54adictionary\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\programmin-1\prog54adictionary\prog54adictionary\obj\Debug\prog54adictionary.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\programmin-1\prog54adictionary\prog54adictionary\obj\Debug\prog54adictionary.exe
