@@ -130,9 +130,9 @@ class MainForm(Form):
         self._label8.Font = System.Drawing.Font("Microsoft Tai Le", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
         self._label8.Location = System.Drawing.Point(464, 9)
         self._label8.Name = "label8"
-        self._label8.Size = System.Drawing.Size(171, 23)
+        self._label8.Size = System.Drawing.Size(101, 23)
         self._label8.TabIndex = 13
-        self._label8.Text = "TOTAL REVENUE"
+        self._label8.Text = "REVENUE"
         # 
         # label9
         # 
@@ -181,6 +181,7 @@ class MainForm(Form):
         self._button2.TabIndex = 19
         self._button2.Text = "Clear"
         self._button2.UseVisualStyleBackColor = True
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -192,6 +193,7 @@ class MainForm(Form):
         self._button3.TabIndex = 20
         self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = True
+        self._button3.Click += self.Button3Click
         # 
         # label12
         # 
@@ -246,4 +248,19 @@ class MainForm(Form):
         pass
 
     def Button1Click(self, sender, e):
-        revenue1 = self._textBox1.Text 
+        revenue1 = int(self._textBox1.Text) 
+        revenue2 = int(self._textBox2.Text) 
+        revenue3 = int(self._textBox2.Text) 
+        self._label9.Text = "$" + str(revenue1 * 15)
+        self._label10.Text = "$" + str(revenue2 * 12)
+        self._label11.Text = "$" + str(revenue3 * 9)
+        self._label13.Text = "$" + str((revenue1 * 15) + (revenue2 * 12) + (revenue3 * 9))
+
+    def Button2Click(self, sender, e):
+        self._label9.Text = "" 
+        self._label10.Text = "" 
+        self._label11.Text = ""
+        self._label13.Text = ""
+
+    def Button3Click(self, sender, e):
+        Aplication.Exit()

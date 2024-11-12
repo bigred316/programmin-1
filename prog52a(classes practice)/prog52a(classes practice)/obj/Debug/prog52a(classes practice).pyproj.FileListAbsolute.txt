@@ -1,0 +1,10 @@
+C:\Users\price.g\Desktop\programmin-1\prog52a(classes practice)\prog52a(classes practice)\bin\Debug\prog52a(classes practice).exe.config
+C:\Users\price.g\Desktop\programmin-1\prog52a(classes practice)\prog52a(classes practice)\bin\Debug\prog52a(classes practice).exe
+C:\Users\price.g\Desktop\programmin-1\prog52a(classes practice)\prog52a(classes practice)\bin\Debug\prog52a(classes practice).dll
+C:\Users\price.g\Desktop\programmin-1\prog52a(classes practice)\prog52a(classes practice)\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\programmin-1\prog52a(classes practice)\prog52a(classes practice)\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\programmin-1\prog52a(classes practice)\prog52a(classes practice)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\programmin-1\prog52a(classes practice)\prog52a(classes practice)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\programmin-1\prog52a(classes practice)\prog52a(classes practice)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\programmin-1\prog52a(classes practice)\prog52a(classes practice)\obj\Debug\prog52a(classes practice).pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\programmin-1\prog52a(classes practice)\prog52a(classes practice)\obj\Debug\prog52a(classes practice).exe
