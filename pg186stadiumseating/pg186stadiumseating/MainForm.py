@@ -263,4 +263,4 @@ class MainForm(Form):
         self._label13.Text = ""
 
     def Button3Click(self, sender, e):
-        Aplication.Exit()
+        Application.Exit()
