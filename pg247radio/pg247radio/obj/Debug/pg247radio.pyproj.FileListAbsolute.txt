@@ -1,0 +1,12 @@
+C:\Users\price.g\Desktop\programmin-1\pg247radio\pg247radio\bin\Debug\pg247radio.exe.config
+C:\Users\price.g\Desktop\programmin-1\pg247radio\pg247radio\bin\Debug\pg247radio.exe
+C:\Users\price.g\Desktop\programmin-1\pg247radio\pg247radio\bin\Debug\pg247radio.dll
+C:\Users\price.g\Desktop\programmin-1\pg247radio\pg247radio\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\programmin-1\pg247radio\pg247radio\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\programmin-1\pg247radio\pg247radio\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\programmin-1\pg247radio\pg247radio\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\programmin-1\pg247radio\pg247radio\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\programmin-1\pg247radio\pg247radio\obj\Debug\pg247radio.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\programmin-1\pg247radio\pg247radio\obj\Debug\pg247radio.MainForm.resources
+C:\Users\price.g\Desktop\programmin-1\pg247radio\pg247radio\obj\Debug\pg247radio.pyproj.GenerateResource.Cache
+C:\Users\price.g\Desktop\programmin-1\pg247radio\pg247radio\obj\Debug\pg247radio.exe
