@@ -83,7 +83,7 @@ class MainForm(Form):
         # 
         self._radioButton4.Location = System.Drawing.Point(28, 157)
         self._radioButton4.Name = "radioButton4"
-        self._radioButton4.Size = System.Drawing.Size(193, 29)
+        self._radioButton4.Size = System.Drawing.Size(213, 29)
         self._radioButton4.TabIndex = 3
         self._radioButton4.TabStop = True
         self._radioButton4.Text = "Senior Citizen (65+)"
@@ -284,7 +284,7 @@ class MainForm(Form):
         if months >= 10:
             basefee -= basefee * 0.1
         self._label4.Text = str(basefee)
-        self._label5.Text = str(basefee* months)
+        self._label5.Text = str(basefee * months)
         
             
         

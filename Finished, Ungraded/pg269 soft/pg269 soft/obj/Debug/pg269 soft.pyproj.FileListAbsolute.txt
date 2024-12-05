@@ -1,0 +1,10 @@
+C:\Users\price.g\Desktop\programmin-1\pg269 soft\pg269 soft\bin\Debug\pg269 soft.exe.config
+C:\Users\price.g\Desktop\programmin-1\pg269 soft\pg269 soft\bin\Debug\pg269 soft.exe
+C:\Users\price.g\Desktop\programmin-1\pg269 soft\pg269 soft\bin\Debug\pg269 soft.dll
+C:\Users\price.g\Desktop\programmin-1\pg269 soft\pg269 soft\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\programmin-1\pg269 soft\pg269 soft\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\programmin-1\pg269 soft\pg269 soft\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\programmin-1\pg269 soft\pg269 soft\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\programmin-1\pg269 soft\pg269 soft\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\programmin-1\pg269 soft\pg269 soft\obj\Debug\pg269 soft.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\programmin-1\pg269 soft\pg269 soft\obj\Debug\pg269 soft.exe

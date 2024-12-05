@@ -1,0 +1,10 @@
+C:\Users\price.g\Desktop\programmin-1\pg268 fatcalcCONSOLE\pg268 fatcalcCONSOLE\bin\Debug\pg268 fatcalcCONSOLE.exe.config
+C:\Users\price.g\Desktop\programmin-1\pg268 fatcalcCONSOLE\pg268 fatcalcCONSOLE\bin\Debug\pg268 fatcalcCONSOLE.exe
+C:\Users\price.g\Desktop\programmin-1\pg268 fatcalcCONSOLE\pg268 fatcalcCONSOLE\bin\Debug\pg268 fatcalcCONSOLE.dll
+C:\Users\price.g\Desktop\programmin-1\pg268 fatcalcCONSOLE\pg268 fatcalcCONSOLE\bin\Debug\IronPython.dll
+C:\Users\price.g\Desktop\programmin-1\pg268 fatcalcCONSOLE\pg268 fatcalcCONSOLE\bin\Debug\IronPython.Modules.dll
+C:\Users\price.g\Desktop\programmin-1\pg268 fatcalcCONSOLE\pg268 fatcalcCONSOLE\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\price.g\Desktop\programmin-1\pg268 fatcalcCONSOLE\pg268 fatcalcCONSOLE\bin\Debug\Microsoft.Scripting.dll
+C:\Users\price.g\Desktop\programmin-1\pg268 fatcalcCONSOLE\pg268 fatcalcCONSOLE\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\price.g\Desktop\programmin-1\pg268 fatcalcCONSOLE\pg268 fatcalcCONSOLE\obj\Debug\pg268 fatcalcCONSOLE.pyprojResolveAssemblyReference.cache
+C:\Users\price.g\Desktop\programmin-1\pg268 fatcalcCONSOLE\pg268 fatcalcCONSOLE\obj\Debug\pg268 fatcalcCONSOLE.exe
